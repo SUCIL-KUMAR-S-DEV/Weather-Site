@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+body{
+    background-image: url(/images/medium-resolution-nature.jpg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box-1{
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.407);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.box-1 .inps-box{
+    margin-bottom: 10px;
+}
+
+.input-box{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0076d7b4;
+}
+
+input::placeholder {
+    color: #b7defe;
+    font-size: 1.12em;
+    opacity: 0.8;
+}
+
+.inp-heading{
+    text-shadow: 2px 2px 5px rgb(0, 255, 4)
+}
+
+.sbt-btn{
+    background-color: #44a9fce4;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.788);
+}
+
+.sbt-btn:hover{
+    opacity: 0.8;
+}
+
+input[type="text"]{
+    color: white;
+    font-size: 15px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sbt-btn:active{
+    opacity: 0.5;
+}
+
+.dates-sec{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgb(0, 255, 4)
+}
+
+.box-2{
+    margin-top: 5px;
+    margin-left: 20px;
+    text-shadow: 2px 2px 5px rgb(0, 255, 4);
+    background-color: rgba(255, 255, 255, 0.407);
+    border-radius: 20px;
+    padding: 15px;
+}
+  
+.temp {
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-items: baseline;
+    font-size: 4rem;
+    font-family: Arial, sans-serif;
+    gap: 0.25em;
+}
+
+#temp {
+    font-weight: bold;
+}
+
+.t-real {
+    font-size: 5rem;
+    color: #000000;
+    margin-left: 0.1em;
+    vertical-align: super;
+}
+
+img{
+    border-radius: 50%;
+    box-shadow: 5px 5px rgba(85, 83, 83, 0.651);
+    border: 1px solid #000000;
+    transition: 0.15s;
+}
+
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+
+/* -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black */

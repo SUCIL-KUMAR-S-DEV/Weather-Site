@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="/images/weather logo.webp" alt="weather appa logo" width="300px">
+        <div class="container1">
+        <div class="box-1">
+            <div class="inps-box">
+                <h1 class="inp-heading">Give City Name</h1>
+                <input type="text" placeholder="Enter your city name" id="city-name" required class="input-box">
+                <button class="sbt-btn" onclick="City_name()">Submit</button>
+            </div>
+            <div class="dates-sec">
+                <p id="year" class="dates"></p>
+                <p id="date" class="dates"></p>
+                <p id="month" class="dates"></p>
+                <p id="day" class="dates"></p>
+            </div>
+        </div>
+
+        
+
+        <div class="box-2">
+            <div class="outp">
+                <h2 class="title" id="name" City_name()></h2>
+            </div>
+            <div class="temp">
+                <h1 id="temp"></h1>
+                <span class="t-real">°c</span>
+            </div>
+            <div class="temp-1 bg-blue">
+                <h3 id="feel"></h3>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="/script.js" ></script>
+</body>
+</html>
